@@ -1,0 +1,41 @@
+nav {
+    background-color: $main-nav-bg;
+}
+
+.top-nav {
+    
+    .brand-logo img {
+        height: 50px;
+        widows: 100%;
+        margin-top: 5px;
+    }
+}
+.lower-nav {
+    background-color: $second-nav-bg; 
+    
+    .nav-wrapper {
+        clear: both;
+    }
+}
+
+.side-nav {
+    margin-top: 0;
+    
+    .logo {
+       height: 90px; 
+        
+        .brand-logo {
+            width: 100%;
+            color: #fff;
+            font-size: 1.8rem;
+            text-align: center;
+            margin-top: 5px;
+        }
+    }
+    li {
+        border-top: 1px solid #fff;  
+    }
+    .first-list {
+        border-top: none;
+    }
+}

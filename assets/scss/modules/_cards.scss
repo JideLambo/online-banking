@@ -1,0 +1,49 @@
+.card {
+    min-height: 260px;
+    height: 260px;
+    overflow: hidden;
+    border-top: 2px solid $card-border;
+    z-index: 2;
+    
+    .card-header {
+        background-color: $card-header-bg;
+        padding: 8px;
+        color: #fff;
+        
+    }
+    .card-content {
+        padding: 8px;
+        margin-top: 0;
+        
+        .transfer-details {
+            
+            i {
+                width: 2rem;
+                font-size: 1.6rem;
+                line-height: 3rem;
+                display: block;
+                float: left;
+                text-align: center;
+                color: $acct-details-text;
+            }
+            span {
+                color: $acct-details-text;
+            }
+            .transfer-header {
+                display: block;
+                min-height: 3rem;
+                line-height: 3rem;
+                
+                
+            }
+        }
+    }
+    
+    .card-action {
+        padding: 10px 20px;
+    }
+}
+
+.quickAcct .card-panel {
+    background-color: $acct-card-bg;
+}
